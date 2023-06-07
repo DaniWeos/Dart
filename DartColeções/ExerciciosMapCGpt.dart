@@ -47,7 +47,7 @@ void main() {
   };
 
   if (estoque.containsKey("Banana")) {
-    print("Sim sim");
+    print("Sim");
   } else {
     print("Não");
   }
