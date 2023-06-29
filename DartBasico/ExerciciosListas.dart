@@ -1,4 +1,5 @@
 void main() {
+  print("Treinando GitHub");
 //Escreva uma função em Dart que receba uma lista de inteiros e retorne a soma de todos os elementos.
   var numeros = [5, 10, 15, 20];
   var soma = numeros.reduce((value, element) => value + element);
@@ -56,15 +57,15 @@ void main() {
 
   //Escreva uma função que receba duas listas de números e retorne uma nova lista contendo
   // a soma dos elementos correspondentes das duas listas.
-  List<int> numeros1 = [1,2,3,4,5,6,7,8,9,10];
-  List<int> numeros2 = [10,9,8,7,5,6,4,3,2,1];
+  List<int> numeros1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  List<int> numeros2 = [10, 9, 8, 7, 5, 6, 4, 3, 2, 1];
   List<int> somandoListas = (somarListas(numeros1, numeros2));
   print("Soma das listas: $somandoListas");
 
   //Implemente uma função que receba uma lista de números e retorne
   // uma nova lista contendo apenas os números ímpares.
-  List <int> impares = [2,3,5,7,6,10];
-  List <int> verificarImpares = (getNoEvenNumbers(impares));
+  List<int> impares = [2, 3, 5, 7, 6, 10];
+  List<int> verificarImpares = (getNoEvenNumbers(impares));
   print('Numeros impares: $verificarImpares');
 }
 
@@ -142,10 +143,10 @@ List<String> getPalindromos(List<String> palindromos) {
   return palindromo;
 }
 
-List <int> somarListas (List<int> numeros1, List<int> numeros2){
+List<int> somarListas(List<int> numeros1, List<int> numeros2) {
   List<int> somarLista = [];
 
-  for (int i = 0; i < numeros1.length; i ++){
+  for (int i = 0; i < numeros1.length; i++) {
     int soma = numeros1[i] + numeros2[i];
     somarLista.add(soma);
   }
